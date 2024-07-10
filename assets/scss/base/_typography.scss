@@ -1,0 +1,49 @@
+:root {
+    font-family: $pt-mono;
+    font-weight: 400;
+    width: 1280px;
+}
+
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.pt-mono-regular {
+    font-family: "PT Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1,
+.fs-xxxl {
+    font-size: $fs-xxxl;
+    font-family: $pt-mono;
+}
+
+h2,
+.fs-xxl {
+    font-size: $fs-xxl;
+    font-family: $pt-mono;
+}
+
+h3,
+.fs-xl {
+    font-size: $fs-xl;
+    font-family: $pt-mono;
+    
+}
+
+h4,
+.fs-lg {
+    font-size: $fs-lg;
+    font-family: $pt-mono;
+}
+
+p,
+.fs-md {
+    font-size: $fs-md;
+    font-family: $roboto;
+}

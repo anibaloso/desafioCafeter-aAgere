@@ -1,0 +1,19 @@
+
+.botones {
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: 2rem;
+    gap: 1rem;
+}
+
+
+.btn{
+    font-family: $pt-mono; //fuente
+    text-align: center; //alineacion
+    padding: 0.5rem; //relleno
+    min-width: 9rem; //para que sea lo minimo que puede medir el boton
+
+    &:hover{
+        cursor:pointer;
+    }
+}

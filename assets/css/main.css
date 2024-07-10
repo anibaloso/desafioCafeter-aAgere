@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: content-box;
+}
+
+:root {
+  font-family: "PT Mono", monospace;
+  font-weight: 400;
+  width: 1280px;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.pt-mono-regular {
+  font-family: "PT Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1,
+.fs-xxxl {
+  font-size: 70px;
+  font-family: "PT Mono", monospace;
+}
+
+h2,
+.fs-xxl {
+  font-size: 40px;
+  font-family: "PT Mono", monospace;
+}
+
+h3,
+.fs-xl {
+  font-size: 30px;
+  font-family: "PT Mono", monospace;
+}
+
+h4,
+.fs-lg {
+  font-size: 18px;
+  font-family: "PT Mono", monospace;
+}
+
+p,
+.fs-md {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+.botones {
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-right: 2rem;
+  gap: 1rem;
+}
+
+.btn {
+  font-family: "PT Mono", monospace;
+  text-align: center;
+  padding: 0.5rem;
+  min-width: 9rem;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.navbar img {
+  width: 4%;
+}
+
+.navbar-list {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  display: flex;
+}
+
+.lista {
+  text-decoration: none;
+  list-style: none;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.lista a {
+  text-decoration: none;
+  list-style: none;
+}
+.lista a:hover {
+  color: #a2a2a2;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.section__superior {
+  display: flex;
+}
+.section__superior__img1 {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.section__superior__img1__texto {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  text-align: center;
+}
+
+.section__superior__img1 img {
+  width: 100%;
+  height: auto;
+}
+
+.caja {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  margin: 1rem 1rem 0 1rem;
+}
+
+.texto-sup {
+  font-size: 40px;
+}
+
+.texto {
+  font-size: 18px;
+}
+
+.section__superior__derecho {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.section__superior__derecho__sup {
+  width: 370px;
+  height: 70%;
+}
+.section__superior__derecho h1 {
+  padding: 4rem 4rem 0 4rem;
+  font-size: 70px;
+  text-align: center;
+  justify-content: center;
+}
+.section__superior__derecho p {
+  font-size: 30px;
+}
+.section__superior__derecho__inf1 {
+  width: 150px;
+  height: 150px;
+  background-color: #f1dd7b;
+  position: relative;
+}
+.section__superior__derecho__inf2 {
+  width: 150px;
+  height: 150px;
+  background-color: #e4572e;
+  position: absolute;
+  bottom: 10px;
+  left: -10px;
+}
+.section__superior__derecho__inf2__flecha {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 70px;
+}
+
+.section__inferior {
+  display: flex;
+  flex-direction: row;
+}
+.section__inferior__box {
+  width: 30%;
+  justify-content: center;
+  position: relative;
+  padding: 2rem;
+}
+.section__inferior__box__h3 {
+  padding: 1rem;
+}
+.section__inferior__box__p {
+  padding: 1rem 3rem 0 1rem;
+}
+.section__inferior__box__map {
+  width: 100%;
+  position: absolute;
+  left: -40px;
+  top: 30px;
+}
+.section__inferior__box__imagenes {
+  width: 30%;
+  position: relative;
+}
+.section__inferior__box__imagenes__granos {
+  width: 100%;
+  height: 70%;
+  position: absolute;
+  left: -20px;
+  -webkit-clip-path: inset(0 75% 0 0);
+          clip-path: inset(0 75% 0 0);
+}
+.section__inferior__box__imagenes__cafetera {
+  width: 100%;
+  height: 100%;
+}
+
+.blue {
+  background-color: #3C91E6;
+  height: 160px;
+}
+
+.btn--primary {
+  background-color: #fff;
+  color: #a2a2a2;
+  border: 1px solid #a2a2a2;
+  margin-right: 2rem;
+}
+.btn--primary:hover {
+  color: #000;
+  border-color: #000;
+}
+
+.btn--secundary {
+  background-color: #4ca866;
+  color: #fff;
+}
+.btn--secundary:hover {
+  color: #454545;
+  background-color: #9dcfab;
+}/*# sourceMappingURL=main.css.map */

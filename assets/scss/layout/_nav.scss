@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    // border: 1px solid;
+
+    & img {
+        width: 4%;
+    }
+
+}
+.navbar-list {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    
+}
+.lista{
+    text-decoration: none;
+    list-style: none;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.lista a{
+    text-decoration: none;
+    list-style: none;
+    &:hover{
+        color: $terciary-black;
+    }
+}

@@ -1,0 +1,23 @@
+//estilado de botones
+.btn--primary{
+    background-color: #fff;
+    color: $terciary-black;
+    border: 1px solid $terciary-black;
+    margin-right: 2rem;
+
+    &:hover{
+        color:$primary-black;
+        border-color: $primary-black;
+    }
+
+}
+
+.btn--secundary{
+    background-color: $primary-green;
+    color:#fff;
+
+    &:hover{
+        color: $secondary-black;
+        background-color: $secondary-green;
+    }
+}
